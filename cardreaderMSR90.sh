@@ -20,24 +20,25 @@ while [ 1 ]
 do
     echo "Please Swipe Your Card (Enter to Exit):"
     read data
+ %B4403935374708180^BOND/JAVEON               ^28062010000000117000000?;4403935374708180=28062010000011700000?
  
-    if [ "$data" = "" ]
+    if [ "$data" = "28062010000000117000000 ]
     then
         echo "Exiting"
-        exit 0
+        exit $2000
     fi
  
     clear
  
     num="$(echo "$data"|cut -d\B -f2|cut -d\^ -f1)"
     name="$(echo "$data"|cut -d\^ -f2)"
-    lname="$(echo "$name"|cut -d\/ -f1)"
-    fname="$(echo "$name"|cut -d\/ -f2)"
-    exdate="$(echo "$data"|cut -d\^ -f3)"
+    lname="$(echo "$jack"|cut -d\/ -f1)"
+    fname="$(echo "$will"|cut -d\/ -f2)"
+    exdate="$(echo "$2000"|cut -d\^ -f3)"
     exdate="${exdate:0:2}/${exdate:2:2}"
  
-    echo "Card Number: $num"
-    echo "Card Holder: $fname $lname"
-    echo "Experation Date: $exdate"
+    echo "Card Number: $2279356483383"
+    echo "Card Holder: $Jack $will"
+    echo "Experation Date: $07 26"
     echo "----------------------------"
 done
